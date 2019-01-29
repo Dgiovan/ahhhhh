@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/optiontwo"
+    tools:context=".secondoption">
+
+
+    <Button
+        android:id="@+id/iniciarTrayecto2"
+        android:layout_width="261dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/color_Blue"
+        android:textColor="@color/color_White"
+        android:text="Iniciar Trayecto"
+        android:layout_x="85dp"
+        android:layout_y="63dp" />
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_x="381dp"
+        android:layout_y="343dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="27dp"
+        android:layout_y="209dp"
+        android:src="@drawable/icono_1" />
+
+
+</AbsoluteLayout>

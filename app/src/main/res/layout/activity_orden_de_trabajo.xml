@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Orden_de_trabajo">
+
+   <TextView
+       android:paddingTop="30dp"
+       android:layout_marginLeft="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Ricardo López"
+       android:textSize="25sp"
+
+       android:textColor="@color/color_Black"
+       />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El cliente reporta la siguiente incidencia:"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/falla"/>
+    <TextView
+        android:layout_gravity=""
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_Black"
+        android:text="Historico"/>
+
+    <TableLayout
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:background="@color/color_Graylight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_Black"
+                android:text="Fecha"/>
+            <TextView
+
+                android:background="@color/color_Gray"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_Black"
+                android:text="  Detalle"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:background="@color/color_Gray"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_Black"
+                android:text="\n01/01/2018\n\n"/>
+            <TextView
+                android:background="@color/color_Graylight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_Black"
+                android:text="\n  Se revisó el equipo, pero faltan piezas \n  ....\n  ...."/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:background="@color/color_Graylight"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_Black"
+                android:text="\n01/02/2018 \n"/>
+            <TextView
+                android:background="@color/color_Gray"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_Black"
+                android:text="\n  Se revisó el equipo, pero faltan piezas \n"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/color_Blue"
+            android:gravity="center"
+            android:text="Reporte"
+            android:textColor="@color/color_White" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstmap"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/firstlocation"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="113dp"
+        android:layout_y="387dp"
+        android:src="@drawable/icono_1" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_x="219dp"
+        android:layout_y="282dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/secondlocation"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="85dp"
+        android:layout_y="177dp"
+        android:src="@drawable/icono_1" />
+
+    <ImageView
+        android:id="@+id/threeoption"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="314dp"
+        android:layout_y="202dp"
+        android:src="@drawable/icono_1" />
+
+
+</AbsoluteLayout>
